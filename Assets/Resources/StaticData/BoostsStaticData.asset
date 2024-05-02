@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 324a385b9677454389acaa74a789ebee, type: 3}
+  m_Name: BoostsStaticData
+  m_EditorClassIdentifier: 
+  "_spawn\u0421hance": 10
+  _boosts:
+  - _prefab: {fileID: 3785370341704399498, guid: 7fc1c50b3cad2bb468908887bc280679,
+      type: 3}
+    _rollChance: 0.33
+  - _prefab: {fileID: 3115754575581354217, guid: 89547f87972d9e84c917f34434ad5175,
+      type: 3}
+    _rollChance: 0.33
+  - _prefab: {fileID: 3954391601841863946, guid: aa4599ee540f9d244a219ae57210c522,
+      type: 3}
+    _rollChance: 0.33
+  _healthBoostValue: 1
+  _speedBoostValue: 2
+  _speedBoosDuration: 3
+  _immunityBoostDuration: 3
